@@ -1,0 +1,112 @@
+header{
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Montserrat';
+    color:white ;
+    /* text-shadow: 7px 8px 4.5px rgb(139, 164, 167); */
+    display: inline;
+}
+
+header img{
+    width: 50px;
+    float: left;
+    margin: 0rem -1rem;
+}
+
+form label{
+    font-family: 'Montserrat';
+    color:black ;
+    font-size: 14px;
+}
+
+
+form.personalDetail{
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.dot{
+    color: red;
+}
+
+.gender{
+    text-align: left;
+    margin-left: 9.5rem;
+}
+
+footer{
+    font-size: 18px;
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+}
+
+#author{
+    margin-left: 7px;
+    color: #fff;
+}
+
+#contact{
+    margin-left: 7px;
+}
+
+#backToTop{
+    float: right;
+    margin-right: 7px;
+}
+
+
+#copyrigth{
+    margin-left: 7px;
+}
+
+a:visited{
+    color: #fff;
+}
+
+a:link{
+    color: #fff;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+footer a{
+    transition: color 0.4s ease;
+}
+
+html{
+    background-color: #efefef;
+
+}
+
+body{
+    margin: 0;
+}
+
+button{
+    transition: box-shadow 0.4s ease;
+    background-color:rgb(101, 118, 148);
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 35px;
+    border-style: ridge;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+button:hover{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) ;
+}
+
+.error{
+    color: red;
+}

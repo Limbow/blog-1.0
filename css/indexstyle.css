@@ -1,0 +1,186 @@
+/*Upper properties*/
+
+header{
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+h1{
+    font-family: 'Montserrat';
+    color:white ;
+    display: inline;
+    user-select: none;
+}
+
+.buttons{
+    float: right;
+}
+
+
+#searchButton{
+    display: inline;
+    float: right;
+    margin-right: 50px; 
+    margin-top: 3px; 
+}
+
+#searchInput{
+    display: inline;
+    width: auto;
+    height: 25px;
+    margin-right: 8px;
+    margin-top: 10px;
+    float: right;
+    background-color: #efefef;
+}
+
+
+.searchBar{
+    height: 50px;
+    background-color: #5d7890;
+    color: white;
+}
+
+#postBody{
+    display: inline;
+}
+
+.container{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.postContent{
+    text-align: center;
+    width: 400px;
+    margin: 0;
+    display: inline;
+}
+/*
+Content in footer
+*/
+#contact{
+    margin-left: 7px;
+}
+
+#backToTop{
+    float: right;
+    margin-right: 7px;
+}
+
+#author{
+    margin-left: 7px;
+    color: #fff;
+}
+
+#copyrigth{
+    margin-left: 7px;
+}
+
+footer{
+    font-size: 18px;
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+}
+/****/
+/*
+General properties
+Links
+*/
+a:visited{
+    color: #fff;
+}
+
+a:link{
+    color: #fff;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+footer a{
+    transition: color 0.4s ease;
+}
+
+/*
+Post
+*/
+article.post:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3) ;
+}
+
+html{
+     background-color: #efefef;
+
+}
+
+body{
+    margin: 0 ;
+}
+
+button{
+    transition: box-shadow 0.4s ease;
+    background-color:#364552;
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 35px;
+    border-style: ridge;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+#searchButton{
+    background-color: #5d7890;
+}
+
+
+button:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.6) ;
+}
+
+/* Estos de materialize */
+
+.carousel{
+    height: 500px;
+}
+
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    height: 500px;
+    width: 500px;
+}
+
+.carousel .carousel-item img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: -100px;
+    border-radius: 10px;
+}
+
+.carousel .indicators .indicator-item {
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin: 0 15px;
+    background: #36221c;
+}
+
+.container{
+    transition: box-shadow 0.4s ease;
+}
+
+.container:hover{
+    box-shadow: 0 0.1rem 0.4rem #cfcfcf;
+}

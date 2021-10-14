@@ -1,0 +1,113 @@
+header{
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Montserrat';
+    color:white ;
+    /* text-shadow: 7px 8px 4.5px rgb(139, 164, 167); */
+    display: inline;
+}
+
+header img{
+    width: 50px;
+    float: left;
+    margin: 0rem -1rem;
+}
+
+body{
+    margin: 0;
+}
+
+.login{
+    transition: box-shadow 0.4s ease;
+    width: 300px;
+    height: 22rem;
+    margin: 5rem auto 10rem;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(101, 118, 148);
+}
+
+.login:hover{
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.4) ;
+}
+
+input{
+    border: 1px solid black;
+}
+
+.data{
+    margin: 20% 20%;
+}
+
+#buttonLogin{
+    margin-top: 2rem;
+}
+
+button{
+    transition: box-shadow 0.4s ease;
+    background-color:rgb(101, 118, 148);
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 35px;
+    border-style: ridge;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+button:hover{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) ;
+}
+
+
+footer{
+    font-size: 18px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    padding: 1rem;
+}
+
+#author{
+    margin-left: 7px;
+    color: #fff;
+}
+
+#contact{
+    margin-left: 7px;
+}
+
+#backToTop{
+    float: right;
+    margin-right: 7px;
+}
+
+
+#copyrigth{
+    margin-left: 7px;
+}
+
+a:visited{
+    color: #fff;
+}
+
+a:link{
+    color: #fff;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+footer a{
+    transition: color 0.4s ease;
+}
+
+html{
+    background-color: #fff;
+}
