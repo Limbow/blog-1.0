@@ -39,7 +39,7 @@
 
         <section class="buttons">
             <?php if (!empty($user)): ?>
-                <button type="button"> <?= $user['USER_NAME'] ?></button>
+                <button type="button" onclick="location.href='profile.php'"> <?= $user['USER_NAME'] ?></button>
                 <button type="button" onclick="location.href='logout.php'"> Cerrar Sesion </button>
             <?php else: ?>
                 <button type="button" onclick="location.href='signin.php'"><strong>Iniciar sesion</strong></button>

@@ -3,7 +3,7 @@
     session_start();
 
     if (isset($_SESSION['user_id'])) {
-        header('Location: /php-login');
+        header('Location: /blog-1.0/src');
     }
 
     require 'database.php';
@@ -22,7 +22,7 @@
         
         if (count($results) > 0 && password_verify($_POST['pass'], $results['PASS']) ) {
             $_SESSION['user_id'] = $results['ID'];
-            header('Location: /blog%20BETA');
+            header('Location: /blog-1.0/src');
         }else {
             $message = "Sorry, user name or password are incorrect";
         }

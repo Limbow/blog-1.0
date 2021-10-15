@@ -5,6 +5,6 @@
 
     session_destroy();
 
-    header('Location: /blog%20BETA');
+    header('Location: /blog-1.0/src');
 
 ?>

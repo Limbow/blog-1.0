@@ -6,7 +6,7 @@ if (isset($_POST['registerButton'])) {
 
     if (!empty($_POST['name']) && !empty($_POST['pass']) && !empty($_POST['age']) && !empty($_POST['bdate']) && !empty($_POST['gender']) && !empty($_POST['country']) && !empty($_POST['comentario'])) {
 
-        $matches = array('7');
+        $matches = array('8');
 
         $password = password_hash($_POST['pass'], PASSWORD_BCRYPT);
 
@@ -17,8 +17,9 @@ if (isset($_POST['registerButton'])) {
         $values[4] = "'" . $_POST['gender'] . "'";
         $values[5] = "'" . $_POST['country'] . "'";
         $values[6] = "'" . $_POST['comentario'] . "'";
+        $values[7] = "'default.png'";
 
-        $sql = "INSERT INTO user (USER_NAME, PASS, AGE, BDATE, GENDER, COUNTRY, USER_DESC) VALUES (" . implode(', ', $values) . ")";
+        $sql = "INSERT INTO user (USER_NAME, PASS, AGE, BDATE, GENDER, COUNTRY, USER_DESC, img) VALUES (" . implode(', ', $values) . ")";
         $stmt = $conn->prepare($sql);
 
 
@@ -93,10 +94,10 @@ if (isset($_POST['registerButton'])) {
             <br><br>
         </section>
 
-        <label><strong>Foto de perfil</strong></label>
+<!--         <label><strong>Foto de perfil</strong></label>
         <br>
         <input type="file" name="profileImg" id="profileImg">
-        <br><br>
+        <br><br> -->
 
         <label><strong>Pais de nacimiento</strong></label><br>
         <select name="country" id="country">
