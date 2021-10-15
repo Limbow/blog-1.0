@@ -27,11 +27,36 @@ header img{
     height: auto;
     width: 430px;
     margin-top: 10rem;
-    margin-right: 0;
+    margin-left: 10rem;
     border: 1px solid rgb(168, 168, 168);
-    border-left: 0px;
-    border-bottom: 0px;
     padding-bottom: 2rem;
+    border-bottom :0;
+}
+
+.cont{
+    display: flex;
+}
+
+.userPosts{
+    align-items: center;
+    height: auto;
+    width: 430px;
+    margin-top: 10rem;
+    border: 1px solid rgb(168, 168, 168);
+    border-bottom :0;
+    border-left: 0;
+}
+
+#coverImg{
+    margin-top: -5px;
+}
+
+#postBody{
+    margin-top: 30px;
+}
+
+#postInfo{
+    margin: 35px auto auto 35px;
 }
 
 .profilePoto{
@@ -49,6 +74,11 @@ header img{
 
 #info{
     margin-left: 20px;
+}
+
+.addPost{
+    margin-top: 2rem;
+    margin-left: 150px;
 }
 
 #contact{

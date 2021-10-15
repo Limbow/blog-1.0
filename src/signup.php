@@ -6,8 +6,6 @@ if (isset($_POST['registerButton'])) {
 
     if (!empty($_POST['name']) && !empty($_POST['pass']) && !empty($_POST['age']) && !empty($_POST['bdate']) && !empty($_POST['gender']) && !empty($_POST['country']) && !empty($_POST['comentario'])) {
 
-        $matches = array('8');
-
         $password = password_hash($_POST['pass'], PASSWORD_BCRYPT);
 
         $values[0] = "'" . $_POST['name'] . "'";
