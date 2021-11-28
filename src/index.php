@@ -61,10 +61,6 @@ $query->execute();
                 <button type="button" onclick="location.href='signup.php'"><strong>Registrarse</strong></button>
             <?php endif; ?>
         </section>
-
-
-
-
         <hr>
     </header>
 
@@ -80,7 +76,7 @@ $query->execute();
             <div class="carousel center-align">
 
                 <?php
-                $i = 0;
+                 $i = 0;
                 while($i < $countID){
                     $result = $query->fetch(PDO::FETCH_OBJ);
                     /* echo " |key-> ".$key. " VALOR -> ".$value; */
